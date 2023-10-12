@@ -1,0 +1,42 @@
+fun main() {
+    //RECTANGLE
+    var rect = Rect(4,3,4,2)
+    println("RECTANGLE: $rect")
+    rect.rotate(RotateDirection.Clockwise, 3, -3)
+    println("Rotate clockwise(3, -3): $rect")
+    rect = Rect(4,3,4,2)
+    rect.rotate(RotateDirection.CounterClockwise, 3, -3)
+    println("Rotate counter clockwise (3, -3): $rect")
+    rect.resize(2)
+    println("Resize in 2 times: $rect")
+    rect.move(5, 5)
+    println("Move on dx = 5 dy = 5: $rect")
+    println()
+
+    //SQUARE
+    var square = Square(4,3,2)
+    println("SQUARE: $square")
+    square.rotate(RotateDirection.Clockwise, 3, -3)
+    println("Rotate clockwise(3, -3): $square")
+    square = Square(4,3,2)
+    square.rotate(RotateDirection.CounterClockwise, 3, -3)
+    println("Rotate counter clockwise (3, -3): $square")
+    square.resize(2)
+    println("Resize in 2 times: $square")
+    square.move(5, 5)
+    println("Move on dx = 5 dy = 5: $square")
+    println()
+
+    //CIRCLE
+    var circle = Circle(4,3,2)
+    println("CIRCLE: $circle")
+    circle.rotate(RotateDirection.Clockwise, 3, -3)
+    println("Rotate clockwise(3, -3): $circle")
+    circle = Circle(4,3,2)
+    circle.rotate(RotateDirection.CounterClockwise, 3, -3)
+    println("Rotate counter clockwise (3, -3): $circle")
+    circle.resize(2)
+    println("Resize in 2 times: $circle")
+    circle.move(5, 5)
+    println("Move on dx = 5 dy = 5: $circle")
+}
