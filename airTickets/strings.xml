@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AirTickets</string>
+    <string name="cityFrom">Откуда</string>
+    <string name="cityTo">Куда</string>
+    <string name="foundButton">Найти</string>
+    <string name="dateFrom">Вылет</string>
+    <string name="dateTo">Прилет</string>
+    <string name="adults">Взрослые</string>
+    <string name="kids">Дети</string>
+    <string name="babys">Младенцы</string>
+    <string name="valueOfPassengers">Количество пассажиров:</string>
+    <string name="enterData">Введите дату</string>
+    <string name="enterValue">Введите количество</string>
+    <string-array name="cities">
+        <item>Иркутск</item>
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Тайланд</item>
+        <item>Сеул</item>
+        <item>Казань</item>
+        <item>Гонконг</item>
+        <item>Лондон</item>
+        <item>Новосибирск</item>
+    </string-array>
+</resources>

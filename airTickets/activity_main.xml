@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cityPickerFrom"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/cityFrom"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/cities"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cityPickerTo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/cityTo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/cities"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/datePickerFrom"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/dateFrom"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dateFrom"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enterData"
+            android:labelFor="@id/datePickerFrom"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/datePickerTo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/dateTo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dateTo"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enterData"
+            android:labelFor="@id/datePickerTo"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/values"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/valueOfPassengers"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/adults"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/adults"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/valueOfAdults"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enterValue"
+            android:labelFor="@id/adults"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kids"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/kids"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/valueOfKids"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enterValue"
+            android:labelFor="@id/kids"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/babys"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/babys"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/valueOfBabys"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enterValue"
+            android:labelFor="@id/babys"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/foundButton"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
