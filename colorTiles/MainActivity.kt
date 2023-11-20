@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
                 findViewById(R.id.t33)
             )
         )
-        // LOG.info("SIZE!! ${tiles[0].size}")
         initField()
     }
 
@@ -58,13 +57,7 @@ class MainActivity : AppCompatActivity() {
         for (row in tiles) {
             for (tile in row) {
                 if (Random.nextBoolean()) {
-                    tile.setBackgroundColor(
-                        ResourcesCompat.getColor(
-                            resources,
-                            R.color.bright,
-                            null
-                        )
-                    )
+                    tile.setBackgroundColor(ResourcesCompat.getColor(resources, R.color.bright, null))
                 } else {
                     tile.setBackgroundColor(ResourcesCompat.getColor(resources, R.color.dark, null))
                 }
