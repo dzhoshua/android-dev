@@ -1,0 +1,67 @@
+{ "movies": [
+  {
+    "name" : "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "time": 148,
+    "genre": ["science fiction", "action", "thriller", "drama", "detective"],
+    "country": ["USA", "Britain"]
+  },
+  {
+    "name" : "Truman Show",
+    "year": 1998,
+    "rating": 8.3,
+    "time": 103,
+    "genre": ["drama", "comedy"],
+    "country": ["USA"]
+  },
+  {
+    "name" : "Mask",
+    "year": 1994,
+    "rating": 8.0,
+    "time": 101,
+    "genre": ["comedy", "fantasy", "crime"],
+    "country": ["USA"]
+  },
+  {
+    "name" : "Matrix",
+    "year": 1999,
+    "rating": 8.2,
+    "time": 136,
+    "genre": ["science fiction", "action"],
+    "country": ["USA", "Australia"]
+  },
+  {
+    "name" : "Matrix2",
+    "year": 2003,
+    "rating": 7.7,
+    "time": 138,
+    "genre": ["science fiction", "action"],
+    "country": ["USA", "Australia"]
+  },
+  {
+    "name" : "Matrix3",
+    "year": 2003,
+    "rating": 7.6,
+    "time": 129,
+    "genre": ["science fiction", "action"],
+    "country": ["USA", "Australia"]
+  },
+  {
+    "name" : "Matrix4",
+    "year": 2021,
+    "rating": 5.7,
+    "time": 148,
+    "genre": ["science fiction", "action"],
+    "country": ["USA", "Australia"]
+  },
+  {
+    "name" : "Bee Movie",
+    "year": 2007,
+    "rating": 6.2,
+    "time": 90,
+    "genre": ["cartoon", "drama", "comedy", "adventure", "family"],
+    "country": ["USA"]
+  }
+]
+}
