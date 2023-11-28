@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GuessNUmber</string>
+    <string name="question">Ваше число больше </string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="incorrect_input_range">Первое число должно быть меньше второго как минимум на 2</string>
+    <string name="finish">Ваше число </string>
+    <string name="theEnd">Конец!</string>
+</resources>
