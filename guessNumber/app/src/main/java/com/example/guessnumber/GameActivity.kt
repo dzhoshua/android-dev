@@ -20,11 +20,9 @@ class GameActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
 
-        val extras = intent.extras
-        if (extras != null){
-            begin = intent.getIntExtra("begin", 0)
-            end = intent.getIntExtra("end", 100)
-        }
+        begin = intent.getIntExtra("begin", 0)
+        end = intent.getIntExtra("end", 100)
+
         Log.d("MYTAG", "begin = $begin")
         Log.d("MYTAG", "end = $end")
 
