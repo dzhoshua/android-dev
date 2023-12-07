@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'ru.myitschool.lab23'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "ru.myitschool.lab23"
